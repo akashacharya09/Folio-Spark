@@ -18,12 +18,13 @@ query,  getDocs,
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBC5BO3mWIMJ-jOLcH7MGT1h3JKgEIUWtY",
-  authDomain: "show-it-2a948.firebaseapp.com",
-  projectId: "show-it-2a948",
-  storageBucket: "show-it-2a948.appspot.com",
-  messagingSenderId: "716030324839",
-  appId: "1:716030324839:web:2c8d1e2d234c34760624c2"
+  apiKey: "AIzaSyBF421AKYFoLByZNIzVAdPigcWuGreDVFY",
+  authDomain: "foliospark.firebaseapp.com",
+  projectId: "foliospark",
+  storageBucket: "foliospark.appspot.com",
+  messagingSenderId: "894284093131",
+  appId: "1:894284093131:web:135748a2960d5e4352ed4e",
+  measurementId: "G-9R46YRK0KX"
 
   // apiKey: process.env.REACT_APP_API_KEY,
   // authDomain: process.env.REACT_APP_AUTH_DOMAIN,
@@ -85,7 +86,9 @@ const registerWithEmailAndPassword = async (name, email, password) => {
               displayName: "",
               tagline: "",
               overview: "",
-              services: [ ]
+              services: [ ],
+           experiences: [ ],
+              projects: [ ]
           }
         });
   } catch (err) {
